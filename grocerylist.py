@@ -188,8 +188,11 @@ class ListToFile:
         outputFile.close()
 
 
-class main:
+class main():
     def __init__(self):
+        pass
+
+    def start(self):
 
         t = DateAndTime()
         p = PreviousFileWithList()
@@ -221,4 +224,5 @@ class main:
         l.outputToFile()
 
 m = main()
+m.start()
 
