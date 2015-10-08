@@ -188,7 +188,7 @@ class ListToFile:
         outputFile.close()
 
 
-class main():
+class main:
     def __init__(self):
         pass
 
